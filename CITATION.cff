@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please credit the study authors and identify this as a public analysis companion."
+title: "Zero-shot Model Evaluation: Public Analysis Companion"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Ristow
+    given-names: Teresa
+  - family-names: Hernandez
+    given-names: Ivan
+repository-code: "https://github.com/tristowww/zero-shot-model-evaluation"
+abstract: >-
+  A public companion to a prompt-ensemble model-evaluation study, with
+  selected paired-comparison functions and a distinct synthetic example.

@@ -1,0 +1,4 @@
+task,prompt_sets,difference_mean,difference_sd,difference_min,difference_max,sets_improved,sets_tied,sets_worse
+task-a,5,0.08000000,0.01394433,0.06666667,0.10000000,5,0,0
+task-b,5,-0.00166667,0.02157030,-0.02500000,0.03333333,1,1,3
+task-c,5,-0.08833333,0.02801289,-0.12500000,-0.05000000,0,0,5

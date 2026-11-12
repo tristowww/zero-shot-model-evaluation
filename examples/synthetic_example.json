@@ -1,0 +1,21 @@
+{
+  "data_kind": "synthetic numeric predictions",
+  "model_executed": false,
+  "seed": 20261112,
+  "bootstrap_seed": 1701,
+  "bootstrap_replications": 2000,
+  "cases_per_task": 120,
+  "case_count": 360,
+  "prediction_rows": 2880,
+  "conditions": [
+    "generated-1",
+    "generated-2",
+    "generated-3",
+    "generated-4",
+    "generated-5",
+    "historical",
+    "human",
+    "single"
+  ],
+  "warning": "Invented outcomes for demonstrating the method. These are not CLIP, BLOOM, or Qwen research results."
+}

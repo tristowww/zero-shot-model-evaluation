@@ -1,0 +1,12 @@
+{
+  "source_commit": "b2432201221d617dcff4d96a43e2ea74dadc924f",
+  "selection": "Five pure analysis functions; function bodies unchanged. Public validation, synthetic example, tests, and presentation are companion additions.",
+  "function_sha256": {
+    "metrics_functions": "a60c285c66eca933291f90dcbff851fb6c26c8b0c78c2414443088855b02d263",
+    "paired_bootstrap_function": "e4307404f9f27a485b0a4b630cb1146b26667dc33270e8668c285647fcb6316d"
+  },
+  "original_source_sha256": {
+    "src/zero_shot_study/metrics.py": "493b89766b80ee994d05ef6d37c09e41360216bcf1b537b0de592236ee10e983",
+    "src/zero_shot_study/publication.py": "36eb942f0dc30471285bcc600509057dd982c7b91f8bb91f496ccff1c3f5808f"
+  }
+}
