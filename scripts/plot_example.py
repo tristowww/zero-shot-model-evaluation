@@ -17,7 +17,7 @@ for ax, task in zip(axes, ["task-a", "task-b", "task-c"]):
         ax.plot([low, high], [i, i], color="#427768", linewidth=2)
         ax.plot(mean, i, "o", color="#214d40", markersize=6)
     ax.axvline(0, color="#767676", linewidth=1, linestyle="--")
-    ax.set_title(task.replace("task-", "Toy task ").upper(), fontsize=12, pad=14)
+    ax.set_title(task.replace("task-", "Example task ").upper(), fontsize=12, pad=14)
     ax.set_yticks(range(5), [f"Generated set {i}" for i in range(1, 6)])
     ax.set_xlim(-25, 25)
     ax.set_xticks([-20, -10, 0, 10, 20])
@@ -26,7 +26,7 @@ for ax, task in zip(axes, ["task-a", "task-b", "task-c"]):
 axes[0].invert_yaxis()
 fig.suptitle("Synthetic example: compare every generated set with the single baseline", fontsize=15, y=0.98)
 fig.supxlabel("Accuracy difference (percentage points); bars show paired 95% bootstrap intervals", fontsize=11, y=0.12)
-fig.text(0.5, 0.025, "Invented outcomes, 120 cases per toy task. No model was run. These are not the research findings.",
+fig.text(0.5, 0.025, "Invented outcomes, 120 cases per example task. No model was run. These are not the research findings.",
          ha="center", fontsize=10, color="#555555")
 fig.tight_layout(rect=(0, 0.16, 1, 0.91))
 fig.savefig(ROOT / "examples/synthetic_comparison.png", dpi=160, facecolor="white")

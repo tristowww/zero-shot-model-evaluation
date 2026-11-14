@@ -21,11 +21,11 @@ These are findings about the evaluated models, prompts, and dataset annotations.
 
 ## Try the comparison method
 
-The runnable example uses **invented numeric predictions**. It shows paired comparisons, all five generated-set results, and uncertainty without downloading a model or dataset. The deliberately different toy tasks illustrate improvement, mixed results, and deterioration.
+The runnable example uses **invented numeric predictions**. It shows paired comparisons, all five generated-set results, and uncertainty without downloading a model or dataset. The deliberately different example tasks illustrate improvement, mixed results, and deterioration.
 
 ![Synthetic demonstration of accuracy differences and paired confidence intervals for five generated sets on three invented tasks](examples/synthetic_comparison.png)
 
-**This figure is synthetic. It is not a plot of the CLIP, BLOOM, or Qwen3 research results.** Each toy task contains 120 invented cases; the bars show paired, label-stratified 95% bootstrap intervals. Variation across generated sets is shown separately.
+**This figure is synthetic. It is not a plot of the CLIP, BLOOM, or Qwen3 research results.** Each example task contains 120 invented cases; the bars show paired, label-stratified 95% bootstrap intervals. Variation across generated sets is shown separately.
 
 Python 3.10+ and NumPy:
 
